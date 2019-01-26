@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC11D36421690BF600EB65D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11D36321690BF600EB65D4 /* AppDelegate.swift */; };
+		FC11D36621690BF600EB65D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11D36521690BF600EB65D4 /* ViewController.swift */; };
+		FC11D36921690BF600EB65D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC11D36721690BF600EB65D4 /* Main.storyboard */; };
+		FC11D36B21690BF800EB65D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC11D36A21690BF800EB65D4 /* Assets.xcassets */; };
+		FC11D36E21690BF800EB65D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC11D36C21690BF800EB65D4 /* LaunchScreen.storyboard */; };
+		FC11D37921690BF800EB65D4 /* CommomCryptoDigestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11D37821690BF800EB65D4 /* CommomCryptoDigestsTests.swift */; };
+		FC11D38821690E7500EB65D4 /* Digests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11D38721690E7500EB65D4 /* Digests.swift */; };
+		FC11D38A21690F6000EB65D4 /* CDDigests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC11D38921690F6000EB65D4 /* CDDigests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC11D37521690BF800EB65D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC11D35821690BF600EB65D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC11D35F21690BF600EB65D4;
+			remoteInfo = CommomCryptoDigests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC11D36021690BF600EB65D4 /* CommomCryptoDigests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommomCryptoDigests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC11D36321690BF600EB65D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC11D36521690BF600EB65D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC11D36821690BF600EB65D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC11D36A21690BF800EB65D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC11D36D21690BF800EB65D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC11D36F21690BF800EB65D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC11D37421690BF800EB65D4 /* CommomCryptoDigestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommomCryptoDigestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC11D37821690BF800EB65D4 /* CommomCryptoDigestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommomCryptoDigestsTests.swift; sourceTree = "<group>"; };
+		FC11D37A21690BF800EB65D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC11D38421690DBA00EB65D4 /* CommomCryptoDigests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommomCryptoDigests-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC11D38721690E7500EB65D4 /* Digests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digests.swift; sourceTree = "<group>"; };
+		FC11D38921690F6000EB65D4 /* CDDigests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDigests.m; sourceTree = "<group>"; };
+		FC11D38B21690F7600EB65D4 /* CDDigests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDigests.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC11D35D21690BF600EB65D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC11D37121690BF800EB65D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC11D35721690BF600EB65D4 = {
+			isa = PBXGroup;
+			children = (
+				FC11D36221690BF600EB65D4 /* CommomCryptoDigests */,
+				FC11D37721690BF800EB65D4 /* CommomCryptoDigestsTests */,
+				FC11D36121690BF600EB65D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC11D36121690BF600EB65D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC11D36021690BF600EB65D4 /* CommomCryptoDigests.app */,
+				FC11D37421690BF800EB65D4 /* CommomCryptoDigestsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC11D36221690BF600EB65D4 /* CommomCryptoDigests */ = {
+			isa = PBXGroup;
+			children = (
+				FC11D36321690BF600EB65D4 /* AppDelegate.swift */,
+				FC11D36521690BF600EB65D4 /* ViewController.swift */,
+				FC11D36721690BF600EB65D4 /* Main.storyboard */,
+				FC11D36A21690BF800EB65D4 /* Assets.xcassets */,
+				FC11D36C21690BF800EB65D4 /* LaunchScreen.storyboard */,
+				FC11D36F21690BF800EB65D4 /* Info.plist */,
+				FC11D38421690DBA00EB65D4 /* CommomCryptoDigests-Bridging-Header.h */,
+				FC11D38721690E7500EB65D4 /* Digests.swift */,
+				FC11D38921690F6000EB65D4 /* CDDigests.m */,
+				FC11D38B21690F7600EB65D4 /* CDDigests.h */,
+			);
+			path = CommomCryptoDigests;
+			sourceTree = "<group>";
+		};
+		FC11D37721690BF800EB65D4 /* CommomCryptoDigestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC11D37821690BF800EB65D4 /* CommomCryptoDigestsTests.swift */,
+				FC11D37A21690BF800EB65D4 /* Info.plist */,
+			);
+			path = CommomCryptoDigestsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC11D35F21690BF600EB65D4 /* CommomCryptoDigests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC11D37D21690BF800EB65D4 /* Build configuration list for PBXNativeTarget "CommomCryptoDigests" */;
+			buildPhases = (
+				FC11D35C21690BF600EB65D4 /* Sources */,
+				FC11D35D21690BF600EB65D4 /* Frameworks */,
+				FC11D35E21690BF600EB65D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommomCryptoDigests;
+			productName = CommomCryptoDigests;
+			productReference = FC11D36021690BF600EB65D4 /* CommomCryptoDigests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC11D37321690BF800EB65D4 /* CommomCryptoDigestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC11D38021690BF800EB65D4 /* Build configuration list for PBXNativeTarget "CommomCryptoDigestsTests" */;
+			buildPhases = (
+				FC11D37021690BF800EB65D4 /* Sources */,
+				FC11D37121690BF800EB65D4 /* Frameworks */,
+				FC11D37221690BF800EB65D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC11D37621690BF800EB65D4 /* PBXTargetDependency */,
+			);
+			name = CommomCryptoDigestsTests;
+			productName = CommomCryptoDigestsTests;
+			productReference = FC11D37421690BF800EB65D4 /* CommomCryptoDigestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC11D35821690BF600EB65D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Guerrero Azpitarte Adrian";
+				TargetAttributes = {
+					FC11D35F21690BF600EB65D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					FC11D37321690BF800EB65D4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FC11D35F21690BF600EB65D4;
+					};
+				};
+			};
+			buildConfigurationList = FC11D35B21690BF600EB65D4 /* Build configuration list for PBXProject "CommomCryptoDigests" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC11D35721690BF600EB65D4;
+			productRefGroup = FC11D36121690BF600EB65D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC11D35F21690BF600EB65D4 /* CommomCryptoDigests */,
+				FC11D37321690BF800EB65D4 /* CommomCryptoDigestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC11D35E21690BF600EB65D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC11D36E21690BF800EB65D4 /* LaunchScreen.storyboard in Resources */,
+				FC11D36B21690BF800EB65D4 /* Assets.xcassets in Resources */,
+				FC11D36921690BF600EB65D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC11D37221690BF800EB65D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC11D35C21690BF600EB65D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC11D38A21690F6000EB65D4 /* CDDigests.m in Sources */,
+				FC11D36621690BF600EB65D4 /* ViewController.swift in Sources */,
+				FC11D36421690BF600EB65D4 /* AppDelegate.swift in Sources */,
+				FC11D38821690E7500EB65D4 /* Digests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC11D37021690BF800EB65D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC11D37921690BF800EB65D4 /* CommomCryptoDigestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC11D37621690BF800EB65D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC11D35F21690BF600EB65D4 /* CommomCryptoDigests */;
+			targetProxy = FC11D37521690BF800EB65D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC11D36721690BF600EB65D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC11D36821690BF600EB65D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC11D36C21690BF800EB65D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC11D36D21690BF800EB65D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC11D37B21690BF800EB65D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC11D37C21690BF800EB65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC11D37E21690BF800EB65D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommomCryptoDigests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.CommomCryptoDigests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommomCryptoDigests/CommomCryptoDigests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC11D37F21690BF800EB65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommomCryptoDigests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.CommomCryptoDigests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommomCryptoDigests/CommomCryptoDigests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC11D38121690BF800EB65D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommomCryptoDigestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.CommomCryptoDigestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommomCryptoDigests.app/CommomCryptoDigests";
+			};
+			name = Debug;
+		};
+		FC11D38221690BF800EB65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CommomCryptoDigestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.CommomCryptoDigestsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommomCryptoDigests.app/CommomCryptoDigests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC11D35B21690BF600EB65D4 /* Build configuration list for PBXProject "CommomCryptoDigests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC11D37B21690BF800EB65D4 /* Debug */,
+				FC11D37C21690BF800EB65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC11D37D21690BF800EB65D4 /* Build configuration list for PBXNativeTarget "CommomCryptoDigests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC11D37E21690BF800EB65D4 /* Debug */,
+				FC11D37F21690BF800EB65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC11D38021690BF800EB65D4 /* Build configuration list for PBXNativeTarget "CommomCryptoDigestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC11D38121690BF800EB65D4 /* Debug */,
+				FC11D38221690BF800EB65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC11D35821690BF600EB65D4 /* Project object */;
+}
