@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC491EE1219F883500D9D404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC491EE0219F883500D9D404 /* AppDelegate.swift */; };
+		FC491EE3219F883500D9D404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC491EE2219F883500D9D404 /* ViewController.swift */; };
+		FC491EE6219F883500D9D404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC491EE4219F883500D9D404 /* Main.storyboard */; };
+		FC491EE8219F883900D9D404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC491EE7219F883900D9D404 /* Assets.xcassets */; };
+		FC491EEB219F883900D9D404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC491EE9219F883900D9D404 /* LaunchScreen.storyboard */; };
+		FC491EF6219F883900D9D404 /* FickerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC491EF5219F883900D9D404 /* FickerSearchTests.swift */; };
+		FC491F01219F883900D9D404 /* FickerSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC491F00219F883900D9D404 /* FickerSearchUITests.swift */; };
+		FC491F19219F8CC400D9D404 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC491F16219F8CC400D9D404 /* FlickrSearchResults.swift */; };
+		FC491F1A219F8CC400D9D404 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC491F17219F8CC400D9D404 /* FlickrPhoto.swift */; };
+		FC491F1B219F8CC400D9D404 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC491F18219F8CC400D9D404 /* Flickr.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC491EF2219F883900D9D404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC491ED5219F883500D9D404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC491EDC219F883500D9D404;
+			remoteInfo = FickerSearch;
+		};
+		FC491EFD219F883900D9D404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC491ED5219F883500D9D404 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC491EDC219F883500D9D404;
+			remoteInfo = FickerSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC491EDD219F883500D9D404 /* FickerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FickerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC491EE0219F883500D9D404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC491EE2219F883500D9D404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC491EE5219F883500D9D404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC491EE7219F883900D9D404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC491EEA219F883900D9D404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC491EEC219F883900D9D404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC491EF1219F883900D9D404 /* FickerSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FickerSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC491EF5219F883900D9D404 /* FickerSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FickerSearchTests.swift; sourceTree = "<group>"; };
+		FC491EF7219F883900D9D404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC491EFC219F883900D9D404 /* FickerSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FickerSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC491F00219F883900D9D404 /* FickerSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FickerSearchUITests.swift; sourceTree = "<group>"; };
+		FC491F02219F883900D9D404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC491F16219F8CC400D9D404 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrSearchResults.swift; path = "../../../../../Downloads/flicker_assets-master-2/FlickrFiles/FlickrSearchResults.swift"; sourceTree = "<group>"; };
+		FC491F17219F8CC400D9D404 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickrPhoto.swift; path = "../../../../../Downloads/flicker_assets-master-2/FlickrFiles/FlickrPhoto.swift"; sourceTree = "<group>"; };
+		FC491F18219F8CC400D9D404 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Flickr.swift; path = "../../../../../Downloads/flicker_assets-master-2/FlickrFiles/Flickr.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC491EDA219F883500D9D404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC491EEE219F883900D9D404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC491EF9219F883900D9D404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC491ED4219F883500D9D404 = {
+			isa = PBXGroup;
+			children = (
+				FC491EDF219F883500D9D404 /* FickerSearch */,
+				FC491EF4219F883900D9D404 /* FickerSearchTests */,
+				FC491EFF219F883900D9D404 /* FickerSearchUITests */,
+				FC491EDE219F883500D9D404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC491EDE219F883500D9D404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC491EDD219F883500D9D404 /* FickerSearch.app */,
+				FC491EF1219F883900D9D404 /* FickerSearchTests.xctest */,
+				FC491EFC219F883900D9D404 /* FickerSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC491EDF219F883500D9D404 /* FickerSearch */ = {
+			isa = PBXGroup;
+			children = (
+				FC491F15219F8C9600D9D404 /* Models */,
+				FC491EE0219F883500D9D404 /* AppDelegate.swift */,
+				FC491EE2219F883500D9D404 /* ViewController.swift */,
+				FC491EE4219F883500D9D404 /* Main.storyboard */,
+				FC491EE7219F883900D9D404 /* Assets.xcassets */,
+				FC491EE9219F883900D9D404 /* LaunchScreen.storyboard */,
+				FC491EEC219F883900D9D404 /* Info.plist */,
+			);
+			path = FickerSearch;
+			sourceTree = "<group>";
+		};
+		FC491EF4219F883900D9D404 /* FickerSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC491EF5219F883900D9D404 /* FickerSearchTests.swift */,
+				FC491EF7219F883900D9D404 /* Info.plist */,
+			);
+			path = FickerSearchTests;
+			sourceTree = "<group>";
+		};
+		FC491EFF219F883900D9D404 /* FickerSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC491F00219F883900D9D404 /* FickerSearchUITests.swift */,
+				FC491F02219F883900D9D404 /* Info.plist */,
+			);
+			path = FickerSearchUITests;
+			sourceTree = "<group>";
+		};
+		FC491F15219F8C9600D9D404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC491F18219F8CC400D9D404 /* Flickr.swift */,
+				FC491F17219F8CC400D9D404 /* FlickrPhoto.swift */,
+				FC491F16219F8CC400D9D404 /* FlickrSearchResults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC491EDC219F883500D9D404 /* FickerSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC491F05219F883900D9D404 /* Build configuration list for PBXNativeTarget "FickerSearch" */;
+			buildPhases = (
+				FC491ED9219F883500D9D404 /* Sources */,
+				FC491EDA219F883500D9D404 /* Frameworks */,
+				FC491EDB219F883500D9D404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FickerSearch;
+			productName = FickerSearch;
+			productReference = FC491EDD219F883500D9D404 /* FickerSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC491EF0219F883900D9D404 /* FickerSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC491F08219F883900D9D404 /* Build configuration list for PBXNativeTarget "FickerSearchTests" */;
+			buildPhases = (
+				FC491EED219F883900D9D404 /* Sources */,
+				FC491EEE219F883900D9D404 /* Frameworks */,
+				FC491EEF219F883900D9D404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC491EF3219F883900D9D404 /* PBXTargetDependency */,
+			);
+			name = FickerSearchTests;
+			productName = FickerSearchTests;
+			productReference = FC491EF1219F883900D9D404 /* FickerSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC491EFB219F883900D9D404 /* FickerSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC491F0B219F883900D9D404 /* Build configuration list for PBXNativeTarget "FickerSearchUITests" */;
+			buildPhases = (
+				FC491EF8219F883900D9D404 /* Sources */,
+				FC491EF9219F883900D9D404 /* Frameworks */,
+				FC491EFA219F883900D9D404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC491EFE219F883900D9D404 /* PBXTargetDependency */,
+			);
+			name = FickerSearchUITests;
+			productName = FickerSearchUITests;
+			productReference = FC491EFC219F883900D9D404 /* FickerSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC491ED5219F883500D9D404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Guerrero Azpitarte Adrian";
+				TargetAttributes = {
+					FC491EDC219F883500D9D404 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FC491EF0219F883900D9D404 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC491EDC219F883500D9D404;
+					};
+					FC491EFB219F883900D9D404 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC491EDC219F883500D9D404;
+					};
+				};
+			};
+			buildConfigurationList = FC491ED8219F883500D9D404 /* Build configuration list for PBXProject "FickerSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC491ED4219F883500D9D404;
+			productRefGroup = FC491EDE219F883500D9D404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC491EDC219F883500D9D404 /* FickerSearch */,
+				FC491EF0219F883900D9D404 /* FickerSearchTests */,
+				FC491EFB219F883900D9D404 /* FickerSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC491EDB219F883500D9D404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC491EEB219F883900D9D404 /* LaunchScreen.storyboard in Resources */,
+				FC491EE8219F883900D9D404 /* Assets.xcassets in Resources */,
+				FC491EE6219F883500D9D404 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC491EEF219F883900D9D404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC491EFA219F883900D9D404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC491ED9219F883500D9D404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC491EE3219F883500D9D404 /* ViewController.swift in Sources */,
+				FC491F1A219F8CC400D9D404 /* FlickrPhoto.swift in Sources */,
+				FC491F1B219F8CC400D9D404 /* Flickr.swift in Sources */,
+				FC491F19219F8CC400D9D404 /* FlickrSearchResults.swift in Sources */,
+				FC491EE1219F883500D9D404 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC491EED219F883900D9D404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC491EF6219F883900D9D404 /* FickerSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC491EF8219F883900D9D404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC491F01219F883900D9D404 /* FickerSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC491EF3219F883900D9D404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC491EDC219F883500D9D404 /* FickerSearch */;
+			targetProxy = FC491EF2219F883900D9D404 /* PBXContainerItemProxy */;
+		};
+		FC491EFE219F883900D9D404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC491EDC219F883500D9D404 /* FickerSearch */;
+			targetProxy = FC491EFD219F883900D9D404 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC491EE4219F883500D9D404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC491EE5219F883500D9D404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC491EE9219F883900D9D404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC491EEA219F883900D9D404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC491F03219F883900D9D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC491F04219F883900D9D404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC491F06219F883900D9D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FickerSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.FickerSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FC491F07219F883900D9D404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FickerSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.FickerSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		FC491F09219F883900D9D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FickerSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.FickerSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FickerSearch.app/FickerSearch";
+			};
+			name = Debug;
+		};
+		FC491F0A219F883900D9D404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FickerSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.FickerSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FickerSearch.app/FickerSearch";
+			};
+			name = Release;
+		};
+		FC491F0C219F883900D9D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FickerSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.FickerSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FickerSearch;
+			};
+			name = Debug;
+		};
+		FC491F0D219F883900D9D404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FickerSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Fi-Diplo.FickerSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FickerSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC491ED8219F883500D9D404 /* Build configuration list for PBXProject "FickerSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC491F03219F883900D9D404 /* Debug */,
+				FC491F04219F883900D9D404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC491F05219F883900D9D404 /* Build configuration list for PBXNativeTarget "FickerSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC491F06219F883900D9D404 /* Debug */,
+				FC491F07219F883900D9D404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC491F08219F883900D9D404 /* Build configuration list for PBXNativeTarget "FickerSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC491F09219F883900D9D404 /* Debug */,
+				FC491F0A219F883900D9D404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC491F0B219F883900D9D404 /* Build configuration list for PBXNativeTarget "FickerSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC491F0C219F883900D9D404 /* Debug */,
+				FC491F0D219F883900D9D404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC491ED5219F883500D9D404 /* Project object */;
+}

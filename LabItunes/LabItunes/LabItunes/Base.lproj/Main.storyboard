@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pHp-tU-AhN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LabItunes" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0Ca-ZU-iBu"/>
+                    <connections>
+                        <segue destination="6Cp-at-pdN" kind="show" identifier="loginSucess" id="Ik6-y6-lGe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1111.2" y="132.68365817091455"/>
+        </scene>
+        <!--Music View Controller-->
+        <scene sceneID="RYj-re-gOc">
+            <objects>
+                <viewController id="6Cp-at-pdN" customClass="MusicViewController" customModule="LabItunes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4vC-dd-9nn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oUQ-lM-4ue">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MusicCell" id="uWn-ZD-Cj4">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uWn-ZD-Cj4" id="UEe-8b-4Nt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="6Cp-at-pdN" id="AWY-3L-UOT"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k4k-Xb-NOk" firstAttribute="bottom" secondItem="oUQ-lM-4ue" secondAttribute="bottom" id="2Ry-lN-6ie"/>
+                            <constraint firstItem="oUQ-lM-4ue" firstAttribute="leading" secondItem="k4k-Xb-NOk" secondAttribute="leading" id="8e3-NP-tj2"/>
+                            <constraint firstItem="k4k-Xb-NOk" firstAttribute="trailing" secondItem="oUQ-lM-4ue" secondAttribute="trailing" id="Hjg-A7-Iz7"/>
+                            <constraint firstItem="oUQ-lM-4ue" firstAttribute="top" secondItem="k4k-Xb-NOk" secondAttribute="top" id="g8P-rj-ZaE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="k4k-Xb-NOk"/>
+                    </view>
+                    <connections>
+                        <outlet property="musicTableView" destination="oUQ-lM-4ue" id="IMd-0l-hfm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nwM-kc-BsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1919" y="133"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Juo-Pk-i1q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pHp-tU-AhN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xYV-Ch-Ks0">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TFG-pr-DW6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rup-Fc-nAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
